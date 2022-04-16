@@ -1,0 +1,10 @@
+{
+  "name": "Spirit Golden",
+  "description": "A golden spirit.",
+  "image": "nft4.png",
+  "attributes": [
+    {
+      "rarity": "0.95"
+    }
+  ] 
+}

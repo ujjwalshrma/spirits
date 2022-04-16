@@ -1,0 +1,10 @@
+{
+  "name": "Spirit Red",
+  "description": "A red spirit.",
+  "image": "nft2.png",
+  "attributes": [
+    {
+      "rarity": "0.66"
+    }
+  ] 
+}
