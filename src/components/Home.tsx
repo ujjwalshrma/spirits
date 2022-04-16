@@ -6,7 +6,7 @@ import WalletBalance from './WalletBalance'
 import { ethers } from 'ethers'
 import Spirit from '../artifacts/contracts/SpiritsNFT.sol/Spirits.json'
 
-const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3'
+const contractAddress = '0xd59c3eb8dDA4B2B4a5fB6391a036C245132309Ab'
 
 const provider = new ethers.providers.Web3Provider(window.ethereum)
 

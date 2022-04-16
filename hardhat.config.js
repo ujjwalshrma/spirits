@@ -25,8 +25,6 @@ module.exports = {
     rinkeby: {
       url: 'https://eth-rinkeby.alchemyapi.io/v2/a0XY3vB5q9bi4pLCd5vKI6rFb6OUIkvz',
       accounts: ['a7a09fc2c1aa7dd34362ad52861074c63ba357bd8f0ff42db46d12d5cfcf6b8b'],
-      gas: 2100000,
-      gasPrice: 8000000000
     }
   }
 };
