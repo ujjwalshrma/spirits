@@ -1,0 +1,10 @@
+{
+  "name": "Spirit Blue",
+  "description": "A blue spirit.",
+  "image": "nft1.png",
+  "attributes": [
+    {
+      "rarity": "0.5"
+    }
+  ] 
+}

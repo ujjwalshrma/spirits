@@ -1,5 +1,5 @@
 declare let window: any
-
+import placeholder from '../images/placeholder.png'
 import React, { useEffect, useState } from 'react'
 import WalletBalance from './WalletBalance'
 
@@ -55,13 +55,13 @@ const NFTImage: React.FC<NFTImageProps> = ({ tokenId, getCount }) => {
 
   return (
     <div>
-      <img src={isMinted ? imageURI : '../../images/placeholder.png'} />
+      <img src={isMinted ? imageURI : placeholder} />
       <div>
         <h3>ID #{tokenId}</h3>
         {!isMinted ? (
           <button onClick={mintToken}>Mint</button>
         ) : (
-          <button onClick={getURI}>Taken! Show URI</button>
+          <button className="btn taken">Taken!</button>
         )}
       </div>
     </div>

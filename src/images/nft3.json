@@ -1,0 +1,10 @@
+{
+  "name": "Spirit Teal",
+  "description": "A teal spirit.",
+  "image": "nft3.png",
+  "attributes": [
+    {
+      "rarity": "0.45"
+    }
+  ] 
+}
